@@ -1,6 +1,7 @@
 # Angular6Project - Manage Employee
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+
 A simple web application to view, create, edit and delete employee details. Built with Angular version 6. The application covers CRUD operations and uses a fake json data store for database - "db.json" file.
 
 ## To Setup the Json server

@@ -4,10 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 A simple web application to view, create, edit and delete employee details. Built with Angular version 6. The application covers CRUD operations and uses a fake json data store for database - "db.json" file.
 
 ## To Setup the Json server
- 
-Markup : 1. Navigate to project root folder. 
-         2. Install json server in local workspace using the command: `npm install -g json-server`
-         3. Start the json server using the command: `json-server --watch db.json`. The "db.json" refers to the json data file.
+
+1. Navigate to project root folder. 
+2. Install json server in local workspace using the command: `npm install -g json-server`
+3. Start the json server using the command: `json-server --watch db.json`. The "db.json" refers to the json data file.
 
 ## Development server
 

@@ -54,6 +54,40 @@
           "skillName": "C#",
           "experienceInYears": "6",
           "proficiency": "advanced"
+        },
+        {
+          "skillName": "Angular",
+          "experienceInYears": "1",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "MVC",
+          "experienceInYears": "4",
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullName": "Andy",
+      "contactPreference": "email",
+      "email": "andy@gmail.com",
+      "phone": "+65226569987",
+      "skills": [
+        {
+          "skillName": "C#",
+          "experienceInYears": "5",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "MVC",
+          "experienceInYears": "3",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Angular",
+          "experienceInYears": "1",
+          "proficiency": "beginner"
         }
       ]
     }

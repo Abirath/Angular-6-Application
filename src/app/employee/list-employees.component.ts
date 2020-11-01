@@ -17,13 +17,24 @@ export class ListEmployeesComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this._employeeService.getEmployees().subscribe(
-      (listEmployees) => (this.employees = listEmployees),
-      (err) => console.log(err)
-    );
+    this.getEmployeeList();
   }
 
   editButtonClick(employee: number) {
     this._router.navigate(["/employees/edit", employee]);
+  }
+
+  deleteButtonClick(employee: number) {
+    this._employeeService
+      .deleteEmployee(employee)
+      .subscribe((err) => console.log(err));
+    this.getEmployeeList();
+  }
+
+  getEmployeeList() {
+    this._employeeService.getEmployees().subscribe(
+      (listEmployees) => (this.employees = listEmployees),
+      (err) => console.log(err)
+    );
   }
 }

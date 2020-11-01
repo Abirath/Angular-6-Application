@@ -15,9 +15,14 @@
         <td>{{ employee.email }}</td>
         <td>{{ employee.phone }}</td>
         <td>{{ employee.contactPreference }}</td>
-        <td> <button class="btn btn-primary" (click)=
+        <td> 
+          <div class="btn-toolbar">            
+         <button class="btn btn-primary" (click)=
           "editButtonClick(employee.id
-          )">Edit</button> </td>
+          )">Edit</button> 
+          <button class="btn btn-danger mr-1" (click)=
+          "deleteButtonClick(employee.id
+          )">Delete</button> </div> </td>
       </tr>
     </tbody>
   </table>

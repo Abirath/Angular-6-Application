@@ -44,30 +44,6 @@
       ]
     },
     {
-      "id": 3,
-      "fullName": "Abirath",
-      "contactPreference": "email",
-      "email": "ab@gmail.com",
-      "phone": "123456",
-      "skills": [
-        {
-          "skillName": "C#",
-          "experienceInYears": "6",
-          "proficiency": "advanced"
-        },
-        {
-          "skillName": "Angular",
-          "experienceInYears": "1",
-          "proficiency": "intermediate"
-        },
-        {
-          "skillName": "MVC",
-          "experienceInYears": "4",
-          "proficiency": "advanced"
-        }
-      ]
-    },
-    {
       "id": 4,
       "fullName": "Andy",
       "contactPreference": "email",
